@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="test_HW1">
+        <classes>
+            <class name="sda.HomeWorks.day16.Hw_1">
+                <methods>
+                    <parameter name="ProgramLanguage" value="Java"></parameter>
+                    <parameter name="Assert" value="span[normalize-space()='Java | Oracle']"></parameter>
+                </methods>
+                <methods>
+                    <parameter name="ProgramLanguage" value="Selenium"></parameter>
+                    <parameter name="Assert" value="//a[@href='https://www.selenium.dev/']//h3[@class='LC20lb MBeuO DKV0Md']//span[@dir='ltr'][normalize-space()='Selenium']"></parameter>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
